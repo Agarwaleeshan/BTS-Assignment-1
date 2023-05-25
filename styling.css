@@ -1,0 +1,168 @@
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #fff;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+  text-align: left;
+}
+
+.container input[type="text"],
+.container input[type="email"],
+.container input[type="tel"],
+.container textarea {
+  width: 80%; 
+  box-sizing: border-box;
+  margin-left: 10%; 
+  margin-right:10%;
+  margin-bottom: 20px; 
+}
+.container .date-input input[type="date"]{
+  width: 80%; 
+  box-sizing: border-box;
+  margin-left: 10%; 
+  margin-right:10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.container form {
+  display: inline-block; 
+  text-align: left; 
+}
+
+
+
+.holy-grail-content {
+  display: flex;
+}
+
+.column {
+  padding: 10px;
+}
+
+.column-left,
+.column-right {
+  flex-basis: 200px;
+  background-color: white;
+}
+
+.column-center {
+  flex-grow: 1;
+  background-color: lightgray;
+}
+
+h1 {
+  text-align: center;
+}
+
+header {
+  background-color: #368ce7;
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+form {
+  margin-top: 20px;
+}
+
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  margin-bottom: 30px;
+}
+
+.input-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 80%; 
+  box-sizing: border-box;
+  margin-left: 10%; 
+  margin-right:10%;
+  margin-top: 2px;
+  margin-bottom: 30px;
+}
+
+.input-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  border: 2px solid #ccc;
+  border-right: 0;
+  border-top: 0;
+  pointer-events: none;
+}
+
+.input-field{
+  margin-bottom: 0px;
+}
+.input-wrapper select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  appearance: none;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  margin-bottom: 30px;
+  margin-bottom: 20px;
+}
+
+.dropdown {
+  position: relative;
+}
+button {
+  display: block;
+  width: 25%;
+  padding: 15px;
+  background-color: #368ce7;
+  color: #fff;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  margin-top: 40px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  margin-top: 0%;
+  background-color: black;
+  padding: 30px;
+  color: white;
+}
